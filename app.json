@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "COFFEELUR",
+    "slug": "COFFEELUR",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/image_2.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/images/loagind.gif",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.yourcompany.yourappname",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "48960659-e0a1-49fc-af2d-4d59c0a23ecd"
+      }
+    }
+  }
+}
